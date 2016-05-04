@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA71ABF91CDA708E006BE95D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71ABF81CDA708E006BE95D /* AppDelegate.swift */; };
-		CA71ABFB1CDA708E006BE95D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71ABFA1CDA708E006BE95D /* ViewController.swift */; };
+		CA71ABFB1CDA708E006BE95D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71ABFA1CDA708E006BE95D /* TestViewController.swift */; };
 		CA71ABFE1CDA708E006BE95D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA71ABFC1CDA708E006BE95D /* Main.storyboard */; };
 		CA71AC001CDA708E006BE95D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA71ABFF1CDA708E006BE95D /* Assets.xcassets */; };
 		CA71AC031CDA708F006BE95D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA71AC011CDA708F006BE95D /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		CA71ABF51CDA708E006BE95D /* CITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA71ABF81CDA708E006BE95D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA71ABFA1CDA708E006BE95D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA71ABFA1CDA708E006BE95D /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		CA71ABFD1CDA708E006BE95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA71ABFF1CDA708E006BE95D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA71AC021CDA708F006BE95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				CA71ABF81CDA708E006BE95D /* AppDelegate.swift */,
-				CA71ABFA1CDA708E006BE95D /* ViewController.swift */,
+				CA71ABFA1CDA708E006BE95D /* TestViewController.swift */,
 				CA71ABFC1CDA708E006BE95D /* Main.storyboard */,
 				CA71ABFF1CDA708E006BE95D /* Assets.xcassets */,
 				CA71AC011CDA708F006BE95D /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA71ABFB1CDA708E006BE95D /* ViewController.swift in Sources */,
+				CA71ABFB1CDA708E006BE95D /* TestViewController.swift in Sources */,
 				CA71ABF91CDA708E006BE95D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +405,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iw.CITest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -416,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iw.CITest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,6 +486,7 @@
 				CA71AC1F1CDA708F006BE95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA71AC201CDA708F006BE95D /* Build configuration list for PBXNativeTarget "CITestTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +495,7 @@
 				CA71AC221CDA708F006BE95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA71AC231CDA708F006BE95D /* Build configuration list for PBXNativeTarget "CITestUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +504,7 @@
 				CA71AC251CDA708F006BE95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

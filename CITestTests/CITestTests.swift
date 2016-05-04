@@ -7,13 +7,26 @@
 //
 
 import XCTest
+
 @testable import CITest
 
 class CITestTests: XCTestCase {
     
+    var vc:TestViewController!
+    
     override func setUp() {
         super.setUp()
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        vc = storyboard.instantiateViewControllerWithIdentifier("view") as! TestViewController
         // Put setup code here. This method is called before the invocation of each test method in the class.
+    }
+    
+    func testLabelAssignation() {
+        
+        let test = vc.labelTextString()
+        XCTAssert(test == "CI Test")
+        
     }
     
     override func tearDown() {
