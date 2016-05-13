@@ -26,7 +26,7 @@ class TestViewController: UIViewController {
     }
     
     func labelTextString()->(String){
-        
+        print("CI TEST")
         return "CI Test"
         
     }
