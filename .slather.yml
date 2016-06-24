@@ -2,7 +2,7 @@
 
 coverage_service: cobertura_xml  
 xcodeproj: ./CITest.xcodeproj  
-scheme: --CITest  
+scheme: CITest  
 output_directory: ./test-reports  
 ignore:  
   - "ThirdParty/*"
